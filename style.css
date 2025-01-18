@@ -1,0 +1,174 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Header */
+  header {
+    background: #ff4081;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('lakmi.jpg');
+     /* no-repeat center center/cover; */
+    
+    color: #fff;
+    background-color: maroon;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+  }
+  
+  /* Event Details */
+  .details {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .event-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .event-item {
+    flex: 1;
+    margin: 20px;
+    background-color: #ff4081;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .event-item h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-item p {
+    font-size: 1.2rem;
+  }
+  
+  /* RSVP Section */
+  .rsvp {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .rsvp form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .rsvp input,
+  .rsvp textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .rsvp button {
+    background-color: #ff4081;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .rsvp button:hover {
+    background-color: #e6316d;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2.5rem;
+    }
+  
+    header p {
+      font-size: 1.2rem;
+    }
+  
+    .hero h2 {
+      font-size: 2rem;
+    }
+  
+    .details h2 {
+      font-size: 2rem;
+    }
+  
+    .event-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .event-item {
+      margin-bottom: 20px;
+    }
+  
+    .rsvp input,
+    .rsvp textarea {
+      font-size: 1rem;
+    }
+  
+    .rsvp button {
+      font-size: 1.2rem;
+    }
+  }
+  
